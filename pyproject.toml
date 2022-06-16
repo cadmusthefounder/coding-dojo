@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "coding-dojo"
+version = "0.1.0"
+description = ""
+authors = ["Charlton Lim <cadmusthefounder@gmail.com>"]
+readme = "README.md"
+packages = [{include = "coding_dojo"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "~7.0.1"
+pytest-mock = "~3.7.0"
+rope = "~0.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
