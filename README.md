@@ -6,8 +6,8 @@
 2. Install python `3.8.10`
 3. Install [poetry](https://python-poetry.org/docs/#installation)
 4. Git clone project
-5. Run `pyenv local 3.8.10`
-6. Create and activate python shell with `poetry env use $PYENV_ROOT/shims/python3.`
+5. Create python shell with `poetry env use $(pyenv which python)`
+6. Activate shell `poetry shell`
 7. Run `poetry install`
 
 ## Run Tests
